@@ -1,10 +1,8 @@
 def mutate_string(string, position, character):
-    # Mutations in Python - HackerRank Solution START
     l = list(string)
-    l[position] = character;
-    string = ''.join(l);
+    l[position] = character
+    string = ''.join(l)
     return string
-    # Mutations in Python - HackerRank Solution END
 if __name__ == '__main__':
     s = input()
     i, c = input().split()
